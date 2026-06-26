@@ -9,18 +9,44 @@ import CaseStudiesSection from "./components/CaseStudies/CaseStudiesSection.jsx"
 import ProjectModal from "./components/ProjectModal/ProjectModal.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 
+const ROOT_DOMAIN = "erikatraverse.com";
+const SUBDOMAINS = {
+  individuel: "accompagnement",
+  formation: "pedagogie",
+};
+
+function isProductionHost(hostname) {
+  return hostname.endsWith(ROOT_DOMAIN);
+}
+
+function getInitialPage() {
+  const hostname = window.location.hostname;
+  if (hostname === `${SUBDOMAINS.individuel}.${ROOT_DOMAIN}`) return "individuel";
+  if (hostname === `${SUBDOMAINS.formation}.${ROOT_DOMAIN}`) return "formation";
+  return "landing";
+}
+
 function App() {
-  const [page, setPage] = useState("landing");
+  const [page, setPage] = useState(getInitialPage);
   const [selectedProjectId, setSelectedProjectId] = useState(null);
   const selectedProject = projects.find((p) => p.id === selectedProjectId) ?? null;
 
-  const goToLanding = () => setPage("landing");
+  const goTo = (target) => {
+    if (isProductionHost(window.location.hostname)) {
+      const host = target === "landing" ? ROOT_DOMAIN : `${SUBDOMAINS[target]}.${ROOT_DOMAIN}`;
+      window.location.href = `${window.location.protocol}//${host}`;
+      return;
+    }
+    setPage(target);
+  };
+
+  const goToLanding = () => goTo("landing");
 
   if (page === "landing") {
     return (
       <LandingPage
-        onSelectIndividuel={() => setPage("individuel")}
-        onSelectFormation={() => setPage("formation")}
+        onSelectIndividuel={() => goTo("individuel")}
+        onSelectFormation={() => goTo("formation")}
       />
     );
   }
