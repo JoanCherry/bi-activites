@@ -1,0 +1,74 @@
+[
+  {
+    "id": "projet-1",
+    "title": "Projet de reskilling - Secteur e-commerce B2B",
+    "tag": "Analyse des besoins",
+    "image": "projet-1.jpg",
+    "context": "Un groupe international spécialisé dans la vente en ligne d'équipements informatiques, présent dans 6 pays européens, devait faire évoluer 60 assistants managers vers des postes de managers de division. \nPublic entre 32 et 44 ans, niveau de français majoritairement C1, avec une dizaine de profils B2 n'ayant jamais suivi de formation en français. 4 collaborateurs en RQTH (troubles auditifs et dyslexie). \nLes tentatives précédentes en e-learning interne avaient généré des retours négatifs.",
+    "problem": "L'écart entre les deux postes n'était pas qu'une liste de compétences à acquérir. C'était un changement de posture : passer d'un rôle de soutien administratif à un rôle de pilotage, de prise de décision et de responsabilité directe sur les résultats. \nLes collaborateurs connaissaient leur terrain commercial. Ce qu'ils n'avaient jamais eu à faire : déléguer, gérer des conflits, évaluer une performance. \n67% signalaient un besoin de mise à niveau sur le LMS avant même d'aborder le contenu managérial : une contrainte technique à résoudre avant la formation elle-même. \nLe contexte multilingue ajoutait une difficulté concrète : les exemples, mises en situation et supports devaient fonctionner pour des profils dont le français n'est pas la langue maternelle, sans ralentir les profils C1.",
+    "role": "Mon rôle consistait à analyser le besoin de formation, identifier les écarts entre la situation de départ et la situation cible et proposer des orientations pédagogiques adaptées aux contraintes du projet.",
+    "approach": "J'ai croisé trois sources : les fiches de poste (situation de départ / situation cible), le brief client et les verbatims du questionnaire apprenants. \nJ'ai identifié les écarts en savoir-faire, en posture et en maîtrise des outils numériques. J'ai intégré dans l'analyse les contraintes techniques du client (outils auteurs) et les outils que les apprenants devaient maîtriser à l'issue du parcours. \nJ'ai conçu une grille d'entretien en 6 champs pour couvrir les variables restantes. J'ai synthétisé les données apprenants dans une fiche persona intégrant motivations, craintes et besoins d'accessibilité.",
+    "decisions": "Trois orientations se sont imposées. \nLe besoin principal ne concernait pas uniquement l'acquisition de compétences managériales, mais l'accompagnement d'un changement de posture : passer d'un rôle de soutien administratif à un rôle de pilotage, de décision et de responsabilité. \nLe dispositif devait également tenir compte de l'hétérogénéité des publics, tant sur le plan linguistique que sur celui de l'accessibilité. \nEnfin, les retours négatifs des précédentes expériences de e-learning montraient que l'engagement ne pouvait pas être considéré comme acquis et nécessitait davantage d'interactions, de mises en situation et d'accompagnement tout au long du parcours.",
+    "demo": [
+      "Analyse de besoins dans un contexte de transformation des métiers",
+      "Prise en compte simultanée de contraintes humaines, techniques et organisationnelles",
+      "Identification des freins à l'apprentissage et à l'évolution des pratiques",
+      "Production de livrables directement exploitables pour orienter une proposition pédagogique"
+    ],
+    "deliverables": [
+      "Rapport d'analyse comparative des deux postes (2 pages)",
+      "Grille d'entretien organisée en 6 points (parties prenantes, transformation, apprenants, modalités, contraintes, budget/matériel),",
+      "Fiche persona synthétisant les motivations, craintes, besoins et cas particuliers des apprenants."
+    ],
+    "certificationNote": "Projet réalisé dans le cadre de la certification RNCP Niveau 6 — Formateur Responsable de Projets Pédagogiques."
+  },
+  {
+    "id": "projet-2",
+    "title": "Pilotage d'un dispositif de formation multimodal en entreprise",
+    "tag": "Pilotage de projet pédagogique",
+    "image": "projet-2.jpg",
+    "context": "Un groupe français du textile technique déployait un programme de formation obligatoire « Bien-être au travail » composé de six modules animés par plusieurs intervenants. \nEn tant qu'intervenante experte sur les modules 2 et 3, j'étais chargée de produire les budgets, le rétroplanning et le rapport de suivi à mi-parcours de mes deux modules.",
+    "problem": "Deux modules aux modalités très différentes étaient déployés sur deux sites et six cohortes. \nLe besoin n'était pas uniquement de coordonner le dispositif, mais de comprendre dans quelles conditions les pratiques enseignées seraient réellement adoptées par les participants.",
+    "role": "Mon rôle consistait à piloter le déploiement de deux modules de formation, coordonner leurs dimensions pédagogiques, logistiques et budgétaires, et analyser les données de suivi afin d'identifier les ajustements favorisant l'adoption des pratiques proposées.",
+    "approach": "J'ai construit un budget détaillé et un rétroplanning en tenant compte des contraintes pédagogiques, logistiques et matérielles des deux modules. \nJ'ai ensuite analysé les données de suivi et de satisfaction afin d'aller au-delà des indicateurs globaux et d'identifier ce qui favorisait ou freinait la mise en pratique des apprentissages.",
+    "decisions": "Les données ont révélé qu'un fort niveau de satisfaction ne garantissait pas l'intention de mise en pratique. \nMalgré une animation très appréciée, le module distanciel générait une intention d'application nettement plus faible que le module présentiel. \nL'analyse a montré que les interactions entre participants, les possibilités d'expérimentation et le sentiment de sécurité pour échanger semblaient davantage influencer l'appropriation des pratiques que la qualité perçue de l'animation elle-même. \nCette lecture a conduit à introduire des temps de travail en sous-groupes, des tests techniques systématiques et un cadre d'écoute explicite dès le début des sessions.",
+    "demo": [
+      "Piloter un dispositif de formation multimodal multi-sites et multi-cohortes",
+      "Articuler contraintes pédagogiques, logistiques et budgétaires",
+      "Analyser des données de suivi au-delà des indicateurs de satisfaction globale",
+      "Identifier les conditions favorisant l'appropriation et la mise en pratique des apprentissages",
+      "Ajuster un dispositif en cours de déploiement à partir des données recueillies"
+    ],
+    "deliverables": [
+      "Budget détaillé des modules 2 et 3 (tableur)",
+      "Rétroplanning détaillé multi-cohortes sur deux sites (tableur)",
+      "Rapport de suivi à mi-parcours avec analyse des écarts et préconisations d'amélioration (PDF)"
+    ],
+    "certificationNote": "Projet réalisé dans le cadre de la certification RNCP Niveau 6 — Formateur Responsable de Projets Pédagogiques."
+  },
+  {
+    "id": "projet-3",
+    "title": "Plan de développement des compétences d'une équipe de formateurs externes",
+    "tag": "Ingénierie de formation",
+    "image": "projet-3.jpg",
+    "context": "Un organisme de formation spécialisé dans les métiers du numérique, certifié Qualiopi, s'appuyait exclusivement sur des formateurs externes. \nPlusieurs observations terrain faisaient apparaître des écarts dans les pratiques pédagogiques et un besoin d'harmonisation des méthodes de formation.",
+    "problem": "Les difficultés observées ne relevaient pas uniquement de l'acquisition de nouvelles techniques d'animation. Elles concernaient également la posture pédagogique, l'aisance dans l'animation de groupe, l'engagement des apprenants et l'appropriation des outils numériques. \nL'équipe disposait de compétences variées, mais celles-ci étaient peu partagées entre les formateurs. Certains souhaitaient intégrer davantage le numérique ou l'intelligence artificielle dans leurs pratiques, tandis que d'autres manquaient de repères ou d'assurance pour faire évoluer leurs méthodes. \nL'objectif n'était donc pas simplement de proposer des formations supplémentaires, mais d'identifier précisément les besoins et de créer des conditions favorisant l'évolution durable des pratiques pédagogiques.",
+    "role": "Ma mission consistait à analyser les pratiques pédagogiques existantes, identifier les besoins de développement des formateurs et concevoir un plan de développement des compétences cohérent avec les attentes pédagogiques de l'organisme et les exigences de la certification Qualiopi.",
+    "approach": "J'ai d'abord analysé une session de formation à l'aide d'une grille d'observation portant sur l'animation, l'engagement des apprenants, la communication et l'utilisation des supports pédagogiques. \nJ'ai ensuite conçu un questionnaire destiné aux formateurs afin d'identifier leurs difficultés, leurs besoins et leurs attentes concernant leurs pratiques pédagogiques, l'usage du numérique et les modalités de partage entre pairs. \nÀ partir des données recueillies, j'ai identifié les priorités de développement et élaboré un plan de développement des compétences combinant actions de formation, temps d'échanges de pratiques et modalités d'évaluation du dispositif. \nEnfin, j'ai conçu un guide de bonnes pratiques proposant des repères directement mobilisables pour faciliter l'animation, favoriser l'engagement des apprenants et encourager l'évolution des pratiques pédagogiques.",
+    "decisions": "L'analyse a montré que les besoins de l'équipe ne concernaient pas uniquement des compétences techniques. \nLes difficultés portaient également sur la posture du formateur, la confiance dans l'animation de groupe, la maîtrise progressive du numérique et les occasions limitées de partage entre pairs. \nCette lecture a conduit à privilégier un dispositif de développement des compétences associant formation, expérimentation, échanges de pratiques et accompagnement dans la durée plutôt qu'une succession de formations isolées.",
+    "demo": [
+      "Diagnostiquer des besoins de développement à partir d'observations terrain et de données qualitatives",
+      "Identifier les écarts de compétences, de posture et de maîtrise des outils",
+      "Concevoir un plan de développement des compétences articulant formation, partage de pratiques et évaluation",
+      "Traduire des besoins hétérogènes en actions de développement cohérentes et réalistes",
+      "Concevoir des recommandations favorisant l'engagement et l'appropriation des apprentissages"
+    ],
+    "deliverables": [
+      "Grille d'analyse des pratiques pédagogiques",
+      "Questionnaire de diagnostic des besoins des formateurs",
+      "Plan de développement des compétences intégrant objectifs, calendrier, modalités et ressources",
+      "Guide de bonnes pratiques pédagogiques"
+    ],
+    "certificationNote": "Projet réalisé dans le cadre de la certification RNCP Niveau 6 — Formateur Responsable de Projets Pédagogiques."
+  }
+]

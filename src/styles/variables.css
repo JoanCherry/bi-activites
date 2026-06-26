@@ -1,0 +1,44 @@
+:root {
+  /* Couleurs — neutres (60%) */
+  --color-bg: #f4ede4;
+  --color-bg-alt: #fbf8f4;
+  --color-text: #2f4958;
+  --color-text-muted: #5d7282;
+  --color-primary: #2f4958;
+  --color-primary-light: #3f5e70;
+  --color-border: #e3d9c9;
+  --color-overlay: rgba(47, 73, 88, 0.6);
+
+  /* Couleurs — accent de teinte (30%) */
+  --color-turquoise: #6eced9;
+  --color-corail: #ff7a6e;
+
+  /* Couleurs — accent ponctuel (10%) */
+  --color-yellow: #f6c667;
+
+  /* Typographie */
+  --font-body: "Montserrat", system-ui, -apple-system, sans-serif;
+  --font-heading: "IBM Plex Sans", system-ui, -apple-system, sans-serif;
+  --font-base: var(--font-body);
+  --fs-sm: 0.875rem;
+  --fs-base: 1rem;
+  --fs-lg: 1.25rem;
+  --fs-xl: 1.75rem;
+  --fs-2xl: 2.25rem;
+
+  /* Espacements */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2.5rem;
+  --space-xl: 2.5rem;
+
+  /* Effets */
+  --radius: 10px;
+  --shadow-sm: 0 1px 3px rgba(15, 23, 42, 0.08);
+  --shadow-md: 0 12px 24px rgba(15, 23, 42, 0.12);
+  --transition: 0.3s ease;
+
+  /* Mise en page */
+  --max-width: 1100px;
+}

@@ -1,0 +1,26 @@
+.coming-soon-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.coming-soon {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.coming-soon__inner {
+  max-width: 480px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.coming-soon__title {
+  color: var(--color-primary);
+  margin-bottom: var(--space-sm);
+}
+
+.coming-soon__text {
+  color: var(--color-text-muted);
+}
