@@ -5,18 +5,24 @@ function Hero() {
   return (
     <section className="hero">
       <div className="container hero__inner">
-        <img className="hero__photo" src={photoProfil} alt="Photo de Erika Traverse" />
-        <div className="hero__text">
-          <h1 className="hero__name">Erika TRAVERSE</h1>
-          <p className="hero__position">
-            Chef de projet pédagogique | Ingénierie de formation | Engagement
-            &amp; adoption du changement
-          </p>
-          <blockquote className="hero__quote">
-            Une formation n'a de valeur que si elle est comprise, utilisée et
-            intégrée dans les pratiques du quotidien.
-          </blockquote>
+        <div className="hero__intro">
+          <img className="hero__photo" src={photoProfil} alt="Photo de Erika Traverse" />
+          <div className="hero__identity">
+            <h1 className="hero__name">Erika TRAVERSE</h1>
+            <p className="hero__position">
+              Chef de projet pédagogique | Ingénierie de formation | Expérience apprenant
+              &amp; adoption des pratiques
+            </p>
+          </div>
         </div>
+        <p className="hero__pitch">
+          De l'identification du besoin jusqu'au déploiement, je conçois et
+          pilote des dispositifs de formation qui tiennent compte des
+          enjeux humains, pédagogiques et opérationnels.
+        </p>
+        <blockquote className="hero__quote">
+          Une formation n'a de valeur que lorsqu'elle aide réellement les personnes à comprendre, expérimenter et faire évoluer leurs pratiques.
+        </blockquote>
       </div>
     </section>
   );

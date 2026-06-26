@@ -5,7 +5,7 @@ const skills = [
   {
     title: "Analyse des besoins",
     description:
-      "Comprendre les besoins réels, les freins et les contraintes afin d'orienter les décisions pédagogiques.",
+      "Identifier les besoins réels, les freins et les contraintes afin d'orienter des choix pédagogiques pertinents.",
   },
   {
     title: "Conception de parcours pédagogiques",
@@ -15,7 +15,7 @@ const skills = [
   {
     title: "Adoption des pratiques & expérience apprenant",
     description:
-      "Créer les conditions qui favorisent l'engagement, l'apprentissage et l'adoption durable de nouvelles pratiques.",
+      "Créer des dispositifs dans lesquels les personnes se sentent concernées, peuvent expérimenter, interagir et mettre en pratique de nouvelles façons de faire.",
   },
 ];
 
@@ -29,7 +29,7 @@ function SkillsSection() {
             <SkillCard key={skill.title} {...skill} />
           ))}
         </div>
-        <div className="section_note">Je porte une attention particulière aux conditions qui favorisent l'apprentissage : se sentir inclus, concerné et en confiance, interagir, expérimenter, et transformer les apprentissages en pratiques.</div>
+        <div className="section_note">J'accorde une place centrale aux conditions qui favorisent l'apprentissage : se sentir inclus, concerné et en confiance, interagir, expérimenter, et transformer les apprentissages en pratiques.</div>
       </div>
     </section>
   );
