@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import projects from "./data/projects.json";
 import LandingPage from "./components/LandingPage/LandingPage.jsx";
 import ComingSoonPage from "./components/ComingSoonPage/ComingSoonPage.jsx";
@@ -26,10 +26,36 @@ function getInitialPage() {
   return "landing";
 }
 
+const PAGE_META = {
+  landing: {
+    title: "Erika Traverse — Chef de projet pédagogique",
+    description:
+      "Erika Traverse, chef de projet pédagogique : accompagnement individuel et projets pédagogiques & formation.",
+  },
+  individuel: {
+    title: "Accompagnement individuel — Erika Traverse",
+    description:
+      "Régulation émotionnelle, communication & relations, évolution & décisions : l'accompagnement individuel d'Erika Traverse.",
+  },
+  formation: {
+    title: "Projets pédagogiques & formation — Erika Traverse",
+    description:
+      "De l'identification du besoin jusqu'au déploiement, je conçois et pilote des dispositifs de formation qui tiennent compte des enjeux humains, pédagogiques et opérationnels.",
+  },
+};
+
 function App() {
   const [page, setPage] = useState(getInitialPage);
   const [selectedProjectId, setSelectedProjectId] = useState(null);
   const selectedProject = projects.find((p) => p.id === selectedProjectId) ?? null;
+
+  useEffect(() => {
+    const meta = PAGE_META[page];
+    document.title = meta.title;
+    document
+      .querySelector('meta[name="description"]')
+      ?.setAttribute("content", meta.description);
+  }, [page]);
 
   const goTo = (target) => {
     if (isProductionHost(window.location.hostname)) {
